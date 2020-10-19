@@ -4,7 +4,7 @@ metadata:
   name: postgres-pod
   labels:
     name: postgres-pod
-	app: demo-voting-app
+    app: demo-voting-app
 spec:
   containers:
   - name: postgres
@@ -12,5 +12,5 @@ spec:
     env:
     - name: POSTGRES_PASSWORD
       value: postgres
-	ports:
-	- containerPort: 5432
+    ports:
+    - containerPort: 5432
